@@ -44,7 +44,7 @@ class NameForm extends React.Component {
             <input type="submit" value="Submit" />
           </form>
           {recommendations.map(recommendation => (
-            <p>{recommendation}</p>
+            <p>{recommendation.title}</p>
           ))}
         </div>
       );
